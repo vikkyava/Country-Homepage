@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-container {
+    background: url("images/nigeriamycountry.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 200px;
+}
+
+.first-heading {
+    color: #FFFFFF;
+    width: 140px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #1D3557;
+    border-radius: 6px;
+}
+
+.intro-text {
+    width: 280px;
+    text-align: center;
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #457B9D;
+    line-height: 15px;
+    border-radius: 5px;
+}
