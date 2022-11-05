@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/************ Hero Section *************/
+
 .top-container {
     background: url("images/nigeriamycountry.jpg");
     background-size: cover;
@@ -12,7 +14,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 200px;
+    height: 300px;
 }
 
 .first-heading {
@@ -33,6 +35,8 @@
     line-height: 15px;
     border-radius: 5px;
 }
+
+/************ Activities Section *************/
 
 .mid-container {
     height: 740px;
@@ -75,4 +79,40 @@
 
 .description-p {
     margin-top: 10px;
+}
+
+/************ Guide Section *************/
+
+.bottom-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-card {
+    width: 340px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.guide-img {
+    width: 124px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.guide-des {
+    width: 190px;
+    height: 200px;
+    padding-top: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
