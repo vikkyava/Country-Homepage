@@ -6,6 +6,7 @@
 .top-container {
     background: url("images/nigeriamycountry.jpg");
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,4 +32,47 @@
     background: #457B9D;
     line-height: 15px;
     border-radius: 5px;
+}
+
+.mid-container {
+    height: 740px;
+    background: #F1FAEE;
+}
+
+.mid-header {
+    text-align: center;
+    padding-top: 20px;
+    color: #1D3557;
+    font-weight: 800;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.all-activities {
+    text-align: center;
+    margin-top: 20px;
+    width: 220px;
+    height: 200px;
+}
+
+.welcome-p {
+    font-size: 15px;
+    font-weight: 800;
+    color: #1D3557;
+}
+
+.description-p {
+    margin-top: 10px;
 }
